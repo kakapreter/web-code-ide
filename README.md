@@ -19,6 +19,7 @@ docker run -d -p 8080:8080 -v /apps/code-server/workspace:/home/coder/project --
 ```
 
 软件版本
+```text
 e3c5d9629533:/home/coder/project/# java -version 
 
 openjdk version "21.0.10" 2026-01-20 LTS
@@ -30,8 +31,9 @@ OpenJDK 64-Bit Server VM Temurin-21.0.10+7 (build 21.0.10+7-LTS, mixed mode, sha
 e3c5d9629533:/home/coder/project/# python3 -V 
 
 Python 3.11.2
-
+```
 推荐插件
+```text
 Spring Boot Extension Pack
 
 Spring Boot Tools
@@ -43,3 +45,4 @@ Spring Initializr Java Support
 File Properties Viewer
 
 YAML
+```
